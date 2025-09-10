@@ -10,7 +10,7 @@
 
     ]
 
-    <!-- Input Row: EditText and ADD CITY Button -->
+    
     <EditText
         android:id="@+id/editTextCityName"
         android:layout_width="0dp"
@@ -22,6 +22,7 @@
         app:layout_constraintEnd_toStartOf="@+id/buttonAddCity"
         android:layout_marginEnd="8dp"/>
 
+    <!-- ADD CITY button -->
     <Button
         android:id="@+id/buttonAddCity"
         android:layout_width="wrap_content"
