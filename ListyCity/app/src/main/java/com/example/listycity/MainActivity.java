@@ -74,7 +74,7 @@ public class MainActivity extends AppCompatActivity {
 
                 view.setBackgroundColor(Color.LTGRAY);
 
-                // Update tracking variables
+               
                 selectedCityPosition = position;
                 previouslySelectedView = view;
                 Toast.makeText(MainActivity.this, dataList.get(position) + " selected", Toast.LENGTH_SHORT).show();
@@ -88,7 +88,7 @@ public class MainActivity extends AppCompatActivity {
                     String removedCity = dataList.remove(selectedCityPosition);
                     cityAdapter.notifyDataSetChanged();
                     Toast.makeText(MainActivity.this, removedCity + " deleted", Toast.LENGTH_SHORT).show();
-                    selectedCityPosition = -1; // Reset selection
+                    selectedCityPosition = -1; 
                 } else {
                     Toast.makeText(MainActivity.this, "Please select a city to delete", Toast.LENGTH_SHORT).show();
                 }
